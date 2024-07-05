@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+buttons:
+- name: All
+  filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+- name: Publications
+  filter: "publication"
+
+
+projects:
+- name: Development and Validation of a Deep Learning Classifier Using Chest Radiographs to Predict Extubation Success in Patients Undergoing Invasive Mechanical Ventilation.
+  # logo: images/projects/kubernetes.png
+  role: co-author
+  timeline: "June 2024"
+  # repo: https://github.com/kubernetes/kubernetes
+  url: "https://www.mdpi.com/2306-5354/11/6/626"
+  summary: "The decision to extubate patients on invasive mechanical ventilation is critical; however, clinician performance in identifying patients to liberate from the ventilator is poor. Machine Learning-based predictors using tabular data have been developed; however, these fail to capture the wide spectrum of data available. Here, we develop and validate a deep learning-based model using routinely collected chest X-rays to predict the outcome of attempted extubation. We included 2288 serial patients admitted to the Medical ICU at an urban academic medical center, who underwent invasive mechanical ventilation, with at least one intubated CXR, and a documented extubation attempt. The last CXR before extubation for each patient was taken and split 79/21 for training/testing sets, then transfer learning with k-fold cross-validation was used on a pre-trained ResNet50 deep learning architecture. The top three models were ensembled to form a final classifier. The Grad-CAM technique was used to visualize image regions driving predictions. The model achieved an AUC of 0.66, AUPRC of 0.94, sensitivity of 0.62, and specificity of 0.60. The model performance was improved compared to the Rapid Shallow Breathing Index (AUC 0.61) and the only identified previous study in this domain (AUC 0.55), but significant room for improvement and experimentation remains."
+  tags: ["professional", "publication","imaging"]
+- name: Evaluating the accuracy of a state-of-the-art large language model for prediction of admissions from the emergency room
+  # logo: images/projects/kubernetes.png
+  role: co-author
+  timeline: "May 2024"
+  # repo: https://github.com/kubernetes/kubernetes
+  url: "https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocae103/7676138?redirectedFrom=fulltext&login=false"
+  summary: "Artificial intelligence (AI) and large language models (LLMs) can play a critical role in emergency room operations by augmenting decision-making about patient admission. However, there are no studies for LLMs using real-world data and scenarios, in comparison to and being informed by traditional supervised machine learning (ML) models. We evaluated the performance of GPT-4 for predicting patient admissions from emergency department (ED) visits. We compared performance to traditional ML models both naively and when informed by few-shot examples and/or numerical probabilities."
+  tags: ["professional", "publication","nlp","ai"]

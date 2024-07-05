@@ -1,0 +1,88 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Technology Specialist
+# your company information
+company:
+  name: Mount Sinai Hospital
+  url: "https://www.mountsinai.org"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Ganesh Raut is a Senior Machine Learning Engineer with over 14+ years of experience, specializing in machine learning, artificial intelligence, and natural language processing. His expertise extends to cloud development and the productionization of ML and AI applications. Ganesh focuses on leveraging advanced technologies to drive innovation and enhance efficiency in projects."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "rautbikram@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/01graut"
+
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/ganesh-raut"
+
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: "Hack Together: The Microsoft Fabric Global AI Hack Finisher"
+  url: "https://www.credly.com/badges/311304ac-cde4-4590-8aa7-4e588ff85dea/linked_in_profile"
+  badge: "https://images.credly.com/size/680x680/images/e82072b0-1774-4257-afe1-bd1f62bf2edb/image.png"
+
+- type: certification
+  name: "Hack Together: The Microsoft AI Chat App Hack"
+  url: "https://www.credly.com/badges/01fb0507-ed21-473a-9127-0104e7b7d209/linked_in_profile"
+  badge: "https://images.credly.com/size/680x680/images/a6706b8f-1b26-4160-96de-21820987a783/image.png"
+
+- type: certification
+  name: Academy Accreditation - Databricks Lakehouse Fundamentals
+  url: "https://credentials.databricks.com/6f27f2e8-b5e3-4d02-b7f7-2a9591559aba#gs.b4s1m9"
+  badge: "https://templates.images.credential.net/16509948849242752807044385742422.png"
+
+- type: soft-skill-indicator
+  name: Azure
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: AWS
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

@@ -1,0 +1,74 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Mount Sinai Hospital
+    url: "https://mountsinai.org"
+    location: New York
+    logo: /images/experiences/Mount_Sinai_Health_System_logo.svg.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Technology Specialist
+    start: Dec 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    # responsibilities:
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
+
+  # - designation: Junior Software Engineer
+  #   start: Nov 2017
+  #   end: Oct 2019
+  #   responsibilities:
+  #   - Implement and test xyz feature for abc tool.
+  #   - Support client for abc tool.
+  #   - Learn k,d,w technology for xyz.
+- company:
+    name: Cognizant
+    url: "https://www.cognizant.com/us/en"
+    location: New York
+    logo: /images/experiences/COG-Logo-2022-1.svg
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Senior Associate
+    start: Oct 2014
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    # responsibilities:
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
+
+- company:
+    name: Atos Syntel
+    url: "https://www.atos.net"
+    location: New York
+    logo: /images/experiences/atos-logo-blue-2023.svg
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Software Engineer
+    start: Feb 2010
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Sep 2014
+    # give some points about what was your responsibilities at the company.
+    # responsibilities:
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.

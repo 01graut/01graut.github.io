@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master of Science in Data Science
+  icon: fa-graduation-cap
+  timeframe: 2024
+  institution:
+    name: New Jersey Institute of Technology
+    url: "https://www.njit.edu/"
+    logo: /images/education/New_Jersey_IT_logo.svg.png # Path of the logo image
+    # darkLogo: /images/education/New_Jersey_IT_logo.svg.png #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.8
+    outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+- name: Bachelor of Engineering in Information Technology
+  icon: fa-user-graduate
+  timeframe: 2008
+  institution:
+    name: University of Mumbai
+    url: "https://mu.ac.in/"
+    logo: /images/education/510px-University_of_Mumbai_wordmark.svg.png # Path of the logo image
+    # darkLogo: /images/education/New_Jersey_IT_logo.svg.png #(optional), Can optionally show a different logo for dark theme
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.8
+  #   outOf: 4
+
